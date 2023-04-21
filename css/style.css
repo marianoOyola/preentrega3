@@ -1,0 +1,172 @@
+
+/**PROPIEDAD GENERALES**/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #7f807f;
+    font-size: 20px;
+    font-family:'Roboto Slab', serif;
+    text-align: center;
+}
+
+/**GRiD**/
+
+#grid_index {
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+}
+
+#grid_sobrenosotros {
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+}
+
+#grid_quehacemos {
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+}
+
+#grid_contacto {
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+}
+
+#grid_clases {
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+}
+
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
+
+/**HEADER**/
+
+.navbar {
+    background-color: rgb(42, 42, 42);
+}
+
+.navbar-brand {
+    color: #eee;
+}
+
+.navbar-brand:hover {
+    color: #05d769;
+}
+
+.nav-link {
+    color: #eee;
+}
+
+.nav-link:hover {
+    color: #7f807f ;
+}
+
+.navbar-toggler {
+    background-color: #7f807f;
+}
+
+/**MAIN**/
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    background-color: #05d769;
+    margin-bottom: 0;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 28px;
+    background-color: #eee;
+    padding: 8px;
+}
+
+p {
+    font-size: 18px;
+    background-color: #7f807f;
+}
+
+.imagenbienvenido {
+    width: 27%;
+    margin-bottom: 20px;
+}
+
+.imagenmcrypto {
+    width: 27%;
+    margin-bottom: 20px;
+}
+
+.footer li {
+    display: inline;
+    padding-right: 32px;
+}
+
+.footer {
+    background-color:  rgb(42, 42, 42);
+    margin-top: 16px;
+}
+
+.footer ul {
+    margin-top: 16px;
+}
+
+.etapa img {
+    width: 30%;
+    border-radius: 60%;
+}
+
+.etapa h3 {
+    background-color: #05d769;
+    margin-top: 8px;
+    padding: 5px;
+}
+
+.etapa{
+    margin-bottom: 20px;
+}
+
+.hacemos img {
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contacto img {
+    width: 30%;
+    margin-top: 13px;
+}
+
