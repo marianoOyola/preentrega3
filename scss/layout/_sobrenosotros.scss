@@ -1,0 +1,16 @@
+
+.etapa{
+    margin-bottom: 20px;
+
+    & img {
+        width: 30%;
+        border-radius: 10%;
+    }
+    
+    & h3 {
+        background-color:$secondcolor;
+        margin-top: 8px;
+        padding: 5px;
+        font-size: 26px;
+    }
+}

@@ -1,0 +1,18 @@
+/**PROPIEDAD GENERALES**/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: $maincolor;
+    font-size: 20px;
+    font-family:'Roboto Slab', serif;
+    text-align: center;
+}

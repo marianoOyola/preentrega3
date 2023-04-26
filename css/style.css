@@ -1,285 +1,246 @@
-
 /**PROPIEDAD GENERALES**/
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 body {
-    background-color: #7f807f;
-    font-size: 20px;
-    font-family:'Roboto Slab', serif;
-    text-align: center;
+  background-color: #7f807f;
+  font-size: 20px;
+  font-family: "Roboto Slab", serif;
+  text-align: center;
 }
 
 /**GRiD**/
-
 #grid_index {
-    display: grid;
-    grid-template-areas: 
-    "header"
-    "main"
-    "footer";
+  display: grid;
+  grid-template-areas: "header" "main" "footer";
 }
 
 #grid_sobrenosotros {
-    display: grid;
-    grid-template-areas: 
-    "header"
-    "main"
-    "footer";
+  display: grid;
+  grid-template-areas: "header" "main" "footer";
 }
 
 #grid_quehacemos {
-    display: grid;
-    grid-template-areas: 
-    "header"
-    "main"
-    "footer";
+  display: grid;
+  grid-template-areas: "header" "main" "footer";
 }
 
 #grid_contacto {
-    display: grid;
-    grid-template-areas: 
-    "header"
-    "main"
-    "footer";
+  display: grid;
+  grid-template-areas: "header" "main" "footer";
 }
 
 #grid_clases {
-    display: grid;
-    grid-template-areas: 
-    "header"
-    "main"
-    "footer";
+  display: grid;
+  grid-template-areas: "header" "main" "footer";
 }
 
-
 header {
-    grid-area: header;
+  grid-area: header;
 }
 
 main {
-    grid-area: main;
+  grid-area: main;
 }
 
 footer {
-    grid-area: footer;
+  grid-area: footer;
 }
 
 /**HEADER**/
-
 .navbar {
-    background-color: rgb(42, 42, 42);
+  background-color: rgb(42, 42, 42);
 }
 
 .navbar-brand {
-    color: #eee;
+  color: #eee;
 }
 
 .navbar-brand:hover {
-    color: #05d769;
+  color: #05d769;
 }
 
 .nav-link {
-    color: #eee;
+  color: #eee;
 }
 
 .nav-link:hover {
-    color: #7f807f ;
+  color: #7f807f;
 }
 
 .navbar-toggler {
-    background-color: #7f807f;
+  background-color: #7f807f;
 }
 
 /**MAIN**/
-
 h1 {
-    font-size: 48px;
-    font-weight: bold;
-    background-color: #05d769;
-    margin-bottom: 0;
-    padding: 10px;
+  font-size: 48px;
+  font-weight: bold;
+  background-color: #05d769;
+  margin-bottom: 0;
+  padding: 10px;
 }
 
 h2 {
-    font-size: 28px;
-    background-color: #eee;
-    padding: 8px;
+  font-size: 28px;
+  background-color: #eee;
+  padding: 8px;
 }
 
 p {
-    font-size: 18px;
-    background-color: #7f807f;
+  font-size: 18px;
+  background-color: #7f807f;
 }
 
 .imagenbienvenido {
-    width: 27%;
-    margin-bottom: 20px;
+  width: 27%;
+  margin-bottom: 20px;
 }
 
 .imagenmcrypto {
-    width: 27%;
-    margin-bottom: 20px;
+  width: 27%;
+  margin-bottom: 20px;
 }
 
 /**FOOTER**/
 .footer li {
-    display: inline;
-    padding-right: 32px;
+  display: inline;
+  padding-right: 32px;
 }
 
 .footer {
-    background-color:  rgb(42, 42, 42);
+  background-color: rgb(42, 42, 42);
 }
 
 .footer ul {
-    margin-top: 16px;
+  margin-top: 16px;
 }
+
 /**SOBRE NOSOTROS**/
 .etapa img {
-    width: 30%;
-    border-radius: 10%;
+  width: 30%;
+  border-radius: 10%;
 }
 
 .etapa h3 {
-    background-color: #05d769;
-    margin-top: 8px;
-    padding: 5px;
-    font-size: 26px;
+  background-color: #05d769;
+  margin-top: 8px;
+  padding: 5px;
+  font-size: 26px;
 }
 
-.etapa{
-    margin-bottom: 20px;
+.etapa {
+  margin-bottom: 20px;
 }
 
 /**QUE HACEMOS**/
 .hacemos img {
-    width: 30%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  width: 30%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /**CONTACTO**/
 .contacto img {
-    width: 30%;
-    margin-top: 13px;
+  width: 30%;
+  margin-top: 13px;
 }
 
 .contacto {
-    background-color: #7f807f;
-    align-items: center;
-    font-weight: bold;
-    border-radius: 8px;
-    padding: 10px 10px;
+  background-color: #7f807f;
+  align-items: center;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 10px 10px;
 }
 
 /**CLASES**/
 .clases img {
-    width: 40%;
+  width: 40%;
 }
-
 
 /**MEDIAQUERIES - MAIN INDEX**/
-
 @media only screen and (max-width: 800px) {
-    .inicio h1 {
-        font-size: 30px;
-    }
-    .inicio h2 {
-        font-size: 20px;
-    }
+  .inicio h1 {
+    font-size: 30px;
+  }
+  .inicio h2 {
+    font-size: 20px;
+  }
 }
-
 @media only screen and (max-width: 1000px) {
-    .inicio img {
-        width: 40%;
-    }
+  .inicio img {
+    width: 40%;
+  }
 }
-
 @media only screen and (max-width: 600px) {
-    .inicio img {
-        width: 50%;
-    }
+  .inicio img {
+    width: 50%;
+  }
 }
-
 /**MEDIAQUERIES - MAIN SOBRENOSOTROS**/
-
 @media only screen and (max-width: 800px) {
-    .etapa h2 {
-        font-size: 25px;
-    }
-    .etapa h3 {
-        font-size: 20px;
-    }
+  .etapa h2 {
+    font-size: 25px;
+  }
+  .etapa h3 {
+    font-size: 20px;
+  }
 }
-
 @media only screen and (max-width: 1000px) {
-    .etapa img {
-        width: 40%;
-    }
+  .etapa img {
+    width: 40%;
+  }
 }
-
 @media only screen and (max-width: 600px) {
-    .etapa img {
-        width: 50%;
-    }
+  .etapa img {
+    width: 50%;
+  }
 }
-
 /**MEDIAQUERIES - MAIN QUEHACEMOS**/
-
 @media only screen and (max-width: 800px) {
-    .hacemos h2 {
-        font-size: 23px;
-    }
+  .hacemos h2 {
+    font-size: 23px;
+  }
 }
-
 @media only screen and (max-width: 1000px) {
-    .hacemos img {
-        width: 40%;
-    }
+  .hacemos img {
+    width: 40%;
+  }
 }
-
 @media only screen and (max-width: 600px) {
-    .hacemos img {
-        width: 50%;
-    }
+  .hacemos img {
+    width: 50%;
+  }
 }
-
 /**MEDIAQUERIES - MAIN CONTACTO**/
-
 @media only screen and (max-width: 800px) {
-    .main h1 {
-        font-size: 30px;
-    }
+  .main h1 {
+    font-size: 30px;
+  }
 }
-
 /**MEDIAQUERIES - MAIN CLASES**/
-
 @media only screen and (max-width: 800px) {
-    .clases h2 {
-        font-size: 23px;
-    }
+  .clases h2 {
+    font-size: 23px;
+  }
 }
-
 @media only screen and (max-width: 1000px) {
-    .clases img {
-        width: 40%;
-    }
+  .clases img {
+    width: 40%;
+  }
 }
-
 @media only screen and (max-width: 600px) {
-    .clases img {
-        width: 50%;
-    }
+  .clases img {
+    width: 50%;
+  }
 }
 
-
-
+/*# sourceMappingURL=style.css.map */

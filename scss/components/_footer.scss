@@ -1,0 +1,11 @@
+.footer {
+    background-color:  rgb(42, 42, 42);
+    & ul {
+        margin-top: 16px;
+    }
+    & li {
+        display: inline;
+        padding-right: 32px;
+    }
+}
+

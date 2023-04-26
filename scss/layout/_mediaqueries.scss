@@ -1,0 +1,93 @@
+/**MEDIAQUERIES - MAIN INDEX**/
+
+@media only screen and (max-width: 800px) {
+    .inicio h1 {
+        font-size: 30px;
+    }
+    .inicio h2 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .inicio img {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .inicio img {
+        width: 50%;
+    }
+}
+
+/**MEDIAQUERIES - MAIN SOBRENOSOTROS**/
+
+@media only screen and (max-width: 800px) {
+    .etapa h2 {
+        font-size: 25px;
+    }
+    .etapa h3 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .etapa img {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .etapa img {
+        width: 50%;
+    }
+}
+
+/**MEDIAQUERIES - MAIN QUEHACEMOS**/
+
+@media only screen and (max-width: 800px) {
+    .hacemos h2 {
+        font-size: 23px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .hacemos img {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .hacemos img {
+        width: 50%;
+    }
+}
+
+/**MEDIAQUERIES - MAIN CONTACTO**/
+
+@media only screen and (max-width: 800px) {
+    .main h1 {
+        font-size: 30px;
+    }
+}
+
+/**MEDIAQUERIES - MAIN CLASES**/
+
+@media only screen and (max-width: 800px) {
+    .clases h2 {
+        font-size: 23px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .clases img {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .clases img {
+        width: 50%;
+    }
+}
